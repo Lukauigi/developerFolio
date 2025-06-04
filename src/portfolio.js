@@ -136,7 +136,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "British Columbia Institute of Technology",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/BCITLogoSmall.png"),
       subHeader: "Bachelor of Science in Applied Computer Science",
       duration: "September 2023 - September 2025",
       desc: "",
@@ -147,7 +147,7 @@ const educationInfo = {
     },
     {
       schoolName: "British Columbia Institute of Technology",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/BCITLogoSmall.png"),
       subHeader: "Diploma in Computer Systems Technology",
       duration: "January 2021 - December 2022",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
