@@ -65,6 +65,18 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },
+    {
+      skillName: "ue5",
+      fontAwesomeClassname: "devicon-unrealengine-original"
+    },
+    {
+      skillName: ".NET Core",
+      fontAwesomeClassname: "devicon-dotnetcore-plain"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -73,16 +85,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "unity",
-      fontAwesomeClassname: "fab fa-unity"
+      skillName: "mongoDB",
+      fontAwesomeClassname: "devicon-mongodb-plain"
     },
     {
-      skillName: "ue5",
-      fontAwesomeClassname: "fas fa-u"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "expressjs",
+      fontAwesomeClassname: "devicon-express-original"
     },
     {
       skillName: "reactjs",
@@ -93,10 +101,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -105,16 +109,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "fas fa-leaf"
-    },
-    {
       skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "devicon-firebase-plain"
     },
     {
-      skillName: "C#/C++/C",
-      fontAwesomeClassname: "fas fa-c"
+      skillName: "C#",
+      fontAwesomeClassname: "devicon-csharp-plain"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "devicon-cplusplus-plain"
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "devicon-c-plain"
     },
     {
       skillName: "python",
@@ -125,8 +133,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
       skillName: "R",
-      fontAwesomeClassname: "fas fa-r"
+      fontAwesomeClassname: "devicon-rstudio-plain"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -222,7 +238,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Notable Projects",
-  subtitle: "SOME GAME PROJECTS THAT I CREATED AND HELPED MAKE",
+  subtitle: "GAME PROJECTS WHICH I CREATED AND HELPED WITH",
   projects: [
     {
       image: require("./assets/images/projectImpetusCover.png"),
