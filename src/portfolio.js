@@ -23,7 +23,7 @@ const greeting = {
   username: "Luke Bednarek",
   title: "Hi there, I'm Luke",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 experience and desire to build games and general applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate software developer! 🚀 Have experience and desire to create video games with Unity and UE5, and other applications utilizing .NET, ASP.NET, MERN stack, React Native, and other frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DEVELOPER OF GAMES AND OTHER SOFTWARE APPLICATIONS ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Prototype gameplay mechanics and loops through an iterative process of user-testing and feedback to then develop finalized refined gameplay."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Test features and user stories through automated unit and functional tests using disjointed equivalency partition and boundary value analysis principles."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Create a comprehensive full stack web and mobile applications with integration of third party services/APIs such as Firebase, Google geolocation, calendar API."
     )
   ],
 
@@ -124,7 +124,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
-    
+    {
+      skillName: "R",
+      fontAwesomeClassname: "fas fa-r"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -405,7 +408,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or interested? Contact me with the following links.",
+    "Discuss a project or interested in my services? Contact me with the following links.",
   number: "",
   email_address: ""
 };
