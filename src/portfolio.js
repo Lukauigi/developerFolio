@@ -140,18 +140,15 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Applied Computer Science",
       duration: "September 2023 - September 2025",
       desc: "",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      descBullets: []
     },
     {
       schoolName: "British Columbia Institute of Technology",
       logo: require("./assets/images/BCITLogoSmall.png"),
       subHeader: "Diploma in Computer Systems Technology",
       duration: "January 2021 - December 2022",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -163,11 +160,11 @@ const techStack = {
   experience: [
     {
       Stack: "Game Development", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: ".NET Framework",
+      progressPercentage: "60%"
     },
     {
       Stack: "Full Stack Development",
@@ -221,29 +218,57 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Notable Projects",
+  subtitle: "SOME GAME PROJECTS THAT I CREATED AND HELPED MAKE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/projectImpetusCover.png"),
+      projectName: "Project Impetus Prototype",
+      projectDesc: "Propel yourself and grapple with the environment to solve this puzzles in this puzzler made with UE5. With your grapple tether, push and pull objects in the environment and attach to walls and swing youtself!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Repository",
+          url: "https://github.com/Lukauigi/Project-Impetus/"
+        },
+        {
+          name: "Go to Download Page",
+          url: "https://lukauigi.itch.io/impetus-prototype/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/DKEngineScuff.jpg"),
+      projectName: "DK Engine",
+      projectDesc: "Custom engine with C++ complete with physics, material-based rendering pipeline, basic shaders/materials/textures, scripting, 3D audio, editor GUI, and racing game demo.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Repository",
+          url: "https://github.com/le-rich/DKEngine/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/snactuaryScuff.jpg"),
+      projectName: "Snactuary",
+      projectDesc: "Manage and feed your party of cute animals by eating as much food as they can handle to level them up for better abilities and progress through levels.",
+      footerLink: [
+        {
+          name: "Visit Repository",
+          url: "https://github.com/DelaineWTan/Snactuary?tab=readme-ov-file/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/hakunaBanana.png"),
+      projectName: "Hakuna Banana",
+      projectDesc: "Shoot, slash, and barrage your friends to get the high score in this Worms Armageddon-inspired Unity game! Made within a week for 2024 Vancouver Global Game Jam.",
+      footerLink: [
+        {
+          name: "Visit Game Jam Page",
+          url: "https://globalgamejam.org/games/2024/hakuna-banana-1/"
         }
       ]
     }
@@ -380,9 +405,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or interested? Contact me with the following links.",
+  number: "",
+  email_address: ""
 };
 
 // Twitter Section
