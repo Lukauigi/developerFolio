@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Luke Bednarek",
+  title: "Hi there, I'm Luke",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate software developer! 🚀 Have experience and desire to create video games with Unity and UE5, and other applications utilizing .NET, ASP.NET, MERN stack, React Native, and other frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Lukauigi",
+  linkedin: "https://www.linkedin.com/in/l-bednarek/",
+  gmail: "lukebednarek@hotmail.ca",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DEVELOPER OF GAMES AND OTHER SOFTWARE APPLICATIONS ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Prototype gameplay mechanics and loops through an iterative process of user-testing and feedback to then refine and finalize gameplay."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Test features and user stories through automated unit and functional tests using disjointed equivalency partition and boundary value analysis principles."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Create a comprehensive full stack web and mobile applications with integration of third party services/APIs such as Firebase, Google geolocation, calendar API."
     )
   ],
 
@@ -65,57 +65,89 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },
+    {
+      skillName: "UE5",
+      fontAwesomeClassname: "devicon-unrealengine-original"
+    },
+    {
+      skillName: "OpenGL",
+      fontAwesomeClassname: "devicon-opengl-plain"
+    },
+    {
+      skillName: ".NET Core",
+      fontAwesomeClassname: "devicon-dotnetcore-plain"
+    },
+    {
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "devicon-mongodb-plain"
+    },
+    {
+      skillName: "Expressjs",
+      fontAwesomeClassname: "devicon-express-original"
+    },
+    {
+      skillName: "Reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "NPM",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "SQL Database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "devicon-firebase-plain"
+    },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "devicon-csharp-plain"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "devicon-cplusplus-plain"
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "devicon-c-plain"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Swift",
+      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "R",
+      fontAwesomeClassname: "devicon-rstudio-plain"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +158,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "British Columbia Institute of Technology",
+      logo: require("./assets/images/BCITLogoSmall.png"),
+      subHeader: "Bachelor of Science in Applied Computer Science",
+      duration: "September 2023 - September 2025",
+      desc: "",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "British Columbia Institute of Technology",
+      logo: require("./assets/images/BCITLogoSmall.png"),
+      subHeader: "Diploma in Computer Systems Technology",
+      duration: "January 2021 - December 2022",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -153,15 +182,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Game Development", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: ".NET Framework",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Programming",
+      Stack: "Full Stack Development",
       progressPercentage: "60%"
     }
   ],
@@ -171,7 +200,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -212,29 +241,57 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Notable Projects",
+  subtitle: "GAME PROJECTS WHICH I CREATED AND HELPED WITH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/projectImpetusCover.png"),
+      projectName: "Project Impetus Prototype",
+      projectDesc: "Propel yourself and grapple with the environment to solve this puzzles in this puzzler made with UE5. With your grapple tether, push and pull objects in the environment and attach to walls and swing youtself!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Repository",
+          url: "https://github.com/Lukauigi/Project-Impetus/"
+        },
+        {
+          name: "Go to Download Page",
+          url: "https://lukauigi.itch.io/impetus-prototype/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/DKEngineScuff.jpg"),
+      projectName: "DK Engine",
+      projectDesc: "Custom engine with C++ complete with physics, material-based rendering pipeline, basic shaders/materials/textures, scripting, 3D audio, editor GUI, and racing game demo.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Repository",
+          url: "https://github.com/le-rich/DKEngine/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/snactuaryScuff.jpg"),
+      projectName: "Snactuary",
+      projectDesc: "Manage and feed your party of cute animals by eating as much food as they can handle to level them up for better abilities and progress through levels.",
+      footerLink: [
+        {
+          name: "Visit Repository",
+          url: "https://github.com/DelaineWTan/Snactuary?tab=readme-ov-file/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/hakunaBanana.png"),
+      projectName: "Hakuna Banana",
+      projectDesc: "Shoot, slash, and barrage your friends to get the high score in this Worms Armageddon-inspired Unity game! Made within a week for 2024 Vancouver Global Game Jam.",
+      footerLink: [
+        {
+          name: "Visit Game Jam Page",
+          url: "https://globalgamejam.org/games/2024/hakuna-banana-1/"
         }
       ]
     }
@@ -300,7 +357,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +381,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +400,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +413,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,19 +428,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or interested in my services? Contact me with the following links.",
+  number: "",
+  email_address: ""
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
