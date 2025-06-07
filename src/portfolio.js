@@ -52,7 +52,7 @@ const skillsSection = {
   subTitle: "DEVELOPER OF GAMES AND OTHER SOFTWARE APPLICATIONS ",
   skills: [
     emoji(
-      "⚡ Prototype gameplay mechanics and loops through an iterative process of user-testing and feedback to then develop finalized refined gameplay."
+      "⚡ Prototype gameplay mechanics and loops through an iterative process of user-testing and feedback to then refine and finalize gameplay."
     ),
     emoji("⚡ Test features and user stories through automated unit and functional tests using disjointed equivalency partition and boundary value analysis principles."),
     emoji(
@@ -65,51 +65,55 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "unity",
+      skillName: "Unity",
       fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "ue5",
+      skillName: "UE5",
       fontAwesomeClassname: "devicon-unrealengine-original"
+    },
+    {
+      skillName: "OpenGL",
+      fontAwesomeClassname: "devicon-opengl-plain"
     },
     {
       skillName: ".NET Core",
       fontAwesomeClassname: "devicon-dotnetcore-plain"
     },
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "mongoDB",
+      skillName: "MongoDB",
       fontAwesomeClassname: "devicon-mongodb-plain"
     },
     {
-      skillName: "expressjs",
+      skillName: "Expressjs",
       fontAwesomeClassname: "devicon-express-original"
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "devicon-firebase-plain"
     },
     {
@@ -125,7 +129,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-c-plain"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
@@ -133,7 +137,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "swift",
+      skillName: "Swift",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
