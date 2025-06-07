@@ -247,7 +247,7 @@ const bigProjects = {
     {
       image: require("./assets/images/projectImpetusCover.png"),
       projectName: "Project Impetus Prototype",
-      projectDesc: "Propel yourself and grapple with the environment to solve this puzzles in this puzzler made with UE5. With your grapple tether, push and pull objects in the environment and attach to walls and swing youtself!",
+      projectDesc: "Propel yourself and grapple with the environment to solve this puzzles in this puzzler made with UE5. With your grapple tether, push and pull objects in the environment and attach to walls and swing yourself!",
       footerLink: [
         {
           name: "Visit Repository",
